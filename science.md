@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Science
-permalink: /science/
-tagline: "Humanity is overrated."
-category: "science"
+title: SciTech
+permalink: /scitech/
+tagline: "try to understand more"
+category: "scitech"
 ---

@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>About</title>
-  <meta name="description" content="The Liberal Jekyll Theme">
+  <meta name="description" content="Albert Lee's blogs about discoveries in science, technology and life">
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Source+Sans+Pro:400,700,200,300|Josefin+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="canonical" href="http://localhost:4000/about/">
-  <link rel="alternate" type="application/rss+xml" title="Gravity" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Avallon Island" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -21,10 +21,10 @@
 
     
 <div class="wrapper">
-  <center> <a href="/index.html"><div class="site-title">   Gravity </div></a></center>
+  <center> <a href="/index.html"><div class="site-title">   Avallon Island </div></a></center>
 </div>
 <div class="wrapper site-description">
-<center>  The Liberal Jekyll Theme </center>
+<center>  Albert Lee's blogs about discoveries in science, technology and life </center>
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
@@ -38,12 +38,7 @@
     
     
 
-    <span class="exclamationMark">/</span><a class="page-link" href="/design/">Design</a>
-    
-    
-    
-
-    <span class="exclamationMark">/</span><a class="page-link" href="/download/">Download</a>
+    <span class="exclamationMark">/</span><a class="page-link" href="/software/">Software</a>
     
     
     
@@ -52,7 +47,9 @@
     
     
 
-    <span class="exclamationMark">/</span><a class="page-link" href="/science/">Science</a>
+    <span class="exclamationMark">/</span><a class="page-link" href="/scitech/">SciTech</a>
+    
+    
     
     
     
@@ -70,149 +67,15 @@
   </header>
 
   
+  <div class="tagline">
+  <span class="page-title">About</span> <span class="page-tagline"><em>a little bit about myself</em></span>
+  </div>
+  
 
   <div class="post-content">
-    <h2>Gravity</h2>
-<p>Minimal, text based, liberal Jekyll theme<br />for sharing your awesome ideas.</p>
-<p><br /></p>
-<center><p><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
-<p><br /></p>
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Posting</strong>
-  </div>
-<p>  <div class="manual-content">
+    <p>I am Jiajin Li (Albert Lee), currently a PhD. student in <a href="https://genomics.genetics.ucla.edu/">Human Genetics Program</a> at UCLA, working in <a href="jaehoonsullab.semel.ucla.edu">Dr. Jae Hoon Sul’s Lab</a>. My research interests are developing efficient and user-friendly statistical tools for large-scale analysis of genomic data. I am also interested in learning and developing cool technologies like deep learning.</p>
 
-```
-  - Create a .markdown file inside <code class="highlighter-rouge">_posts</code> folder.<br />
-  - Name the file according to the format YY-MM-DD-[short name for your post].<br />  <code>2016-03-30-i-love-design.markdown</code><br />
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.<br />
-  <div class="example">
-    <span class="manual">FORMAT</span><br />
-    <pre>---
-```
-
-layout: post | default | page
-title:  String<span class="hint"> Post Title</span>
-date:   Time Stamp
-categories: String | Array of Strings<span class="hint"> Category / Categories </span>
-\---</pre>
-
-```
-  </div>
-  <div class="example">
-
-    <pre>---
-```
-
-layout: post
-title:  "The One with the Blackout"
-date:   2016-03-30 19:45:31 +0530
-categories: ["life", "friends"]
-\---</pre>
-
-```
-  </div>
-```
-
-  </div>
-</p>
-</div>
-<p><br /></p>
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Create Pages</strong>
-  </div>
-<p>  <div class="manual-content">
-
-```
-  - Create a .md file in the root directory.<br />
-  - Name the file with the desired page link name.<br />  <code>about.md</code><br /><code>design.md</code><br />
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.
-  <div class="example">
-    <span class="manual">FORMAT</span><br />
-    <pre>---
-```
-
-layout: page
-title: String <span class="hint">Title of the webpage</span>
-permalink: / String / <span class="hint">Permalink for the webpage</span>
-tagline: String <span class="hint">Optional Gravity Feature : Tagline for the page</span>
-\---</pre>
-
-```
-  </div>
-  <div class="example">
-
-    <pre>---
-```
-
-layout: page
-title:  "Science"
-permalink:   /science/
-tagline : "Humanity is overrated."
-\---</pre>
-
-```
-  </div>
-```
-
-  </div>
-</p>
-</div>
-<p><br /></p>
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Create Archives/ Category Pages</strong><br />
-</div><br />
-<div class="archiveIntro">
-  <p>
-    Introducing <strong>Archive Pages</strong>.<br /></p>
-  <span class="archive-intro">  You can display a list of all the post corresponding to a particular category on a standalone Page using the <code>'archive'</code> layout.
-</span>
-</div>
-<br />
-
-<p>  <div class="manual-content">
-
-```
-  - Create a .md file in the root directory.<br />
-  - Name the file. Preferred name will be the name of the category<br />  <code>life.md</code><br />
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.
-  <div class="example">
-    <span class="manual">FORMAT</span><br />
-<pre>---
-```
-
-layout: archive<span class="hint"> Archive Page Layout</span>
-title: String <span class="hint">Title of the webpage</span>
-permalink: / String / <span class="hint">Permalink for the webpage</span>
-tagline: String <span class="hint"> Tagline for the page</span>
-category : String <span class="hint"> Name of the category of which the page will show posts.</span>
-\---</pre>
-
-```
-  </div>
-  <div class="example">
-
-    <pre>---
-```
-
-layout: archive
-title:  "Design"
-permalink : "Design"
-category: "design"
-tagline: "It's all about perception."
-\---</pre>
-
-```
-</div><br />
-```
-
-  </div>
-</p>
-</div>
-
+<p>I am not only a tech guy, but also an anime fan, a gamer, a minimalist, a badminton lover and a bookworm. I like to post some interesting findings both in SciTech and my daily life.</p>
 
   </div>
 
@@ -225,7 +88,7 @@ tagline: "It's all about perception."
 
   <div class="wrapper">
 
-    <h2 class="footer-heading small-site-title">Gravity</h2>
+    <h2 class="footer-heading small-site-title">Avallon Island</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -241,8 +104,8 @@ tagline: "It's all about perception."
         <ul class="social-media-list">
           
           <li>
-            <a href="https://github.com/hemangsk"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
-</span><span class="username">hemangsk</span></a>
+            <a href="https://github.com/avallonking"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">avallonking</span></a>
 
           </li>
           
@@ -251,7 +114,7 @@ tagline: "It's all about perception."
 
           
           <li>
-            <a href="https://www.linkedin.com/in/hemangsk"><span class="icon icon--twitter"><?xml version="1.0" encoding="iso-8859-1"?>
+            <a href="https://www.linkedin.com/in/jiajinli"><span class="icon icon--twitter"><?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;" xml:space="preserve">
@@ -289,7 +152,7 @@ tagline: "It's all about perception."
 <g>
 </g>
 </svg>
-</span><span class="username">hemangsk</span></a>
+</span><span class="username">jiajinli</span></a>
 
           </li>
           
@@ -297,7 +160,7 @@ tagline: "It's all about perception."
       </div>
 
       <div class="footer-col footer-col-3 site-description">
-        <p>The Liberal Jekyll Theme</p>
+        <p>Albert Lee's blogs about discoveries in science, technology and life</p>
       </div>
     </div>
 
