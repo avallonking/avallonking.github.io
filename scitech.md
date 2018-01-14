@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: SciTech
+title: Sci-Tech
 permalink: /scitech/
 tagline: "try to understand more"
 category: "scitech"
