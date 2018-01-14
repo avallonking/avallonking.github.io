@@ -1,1 +1,1 @@
-[Jiajin Li (Albert Lee)'s blog](avallonking.github.io), powered by [Gravity](https://github.com/hemangsk/Gravity). This blog site is made with [Jekyll](https://jekyllrb.com) and [Github Pages](https://pages.github.com/).
+[Jiajin Li (Albert Lee)'s blog](https://avallonking.github.io/), powered by [Gravity](https://github.com/hemangsk/Gravity). This blog site is made with [Jekyll](https://jekyllrb.com) and [Github Pages](https://pages.github.com/).
